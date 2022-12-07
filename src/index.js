@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>App1</h1>
+      <h1>App1 updated on 7dec2022, 12.20pm</h1>
       <h2>You clicked {count} times!</h2>
 
       <button onClick={() => setCount(count - 1)}>Decrement</button>
