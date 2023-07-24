@@ -16,12 +16,12 @@ function App() {
   
   return (
     <div className="App">
-      <h1>App1 updated on 7dec2022, 12.20pm</h1>
+      <h1>App1 updated on 24jul2023, 12.20pm</h1>
       <h2>You clicked {count} times!</h2>
 <p className='clock'>
       {date.toLocaleTimeString()}
     </p>
-      <button onClick={() => setCount(count - 1)}>Decrement</button>
+      <button onClick={() => {if(count>0){setCount(count - 1)}}}>Decrement</button>
       <button onClick={() => setCount(count + 1)}>Increment</button>
     </div>
   );
