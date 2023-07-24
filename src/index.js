@@ -13,12 +13,12 @@ function App() {
 
     return () => clearInterval(intervalId);
   }, []);
-  const REACT_APP_initialCounter=process.env.REACT_APP_initialCounter
-  const REACT_APP_maxCountValue =process.env.REACT_APP_maxCountValue;
+  const REACT_APP_INITIAL_COUNTER=process.env.REACT_APP_INITIAL_COUNTER
+  const REACT_APP_MAX_COUNT =process.env.REACT_APP_MAX_COUNT;
   return (
     <div className="App">
       <h1>App1 updated on 24jul2023, 16:13hrs</h1>
-<p>REACT_APP_initialCounter: {REACT_APP_initialCounter},REACT_APP_maxCountValue: {REACT_APP_maxCountValue}</p>
+<p>REACT_APP_INITIAL_COUNTER: {REACT_APP_INITIAL_COUNTER},REACT_APP_MAX_COUNT: {REACT_APP_MAX_COUNT}</p>
       <h2>You clicked {count} times!</h2>
 <p className='clock'>
       {date.toLocaleTimeString()}
