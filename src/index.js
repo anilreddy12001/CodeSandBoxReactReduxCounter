@@ -13,7 +13,8 @@ function App() {
 
     return () => clearInterval(intervalId);
   }, []);
-  
+  const REACT_APP_initialCounter=process.env.REACT_APP_initialCounter
+  const REACT_APP_maxCountValue =process.env.REACT_APP_maxCountValue;
   return (
     <div className="App">
       <h1>App1 updated on 24jul2023, 12.20pm</h1>
