@@ -15,6 +15,7 @@ function App() {
   }, []);
   const REACT_APP_INITIAL_COUNTER=process.env.REACT_APP_INITIAL_COUNTER
   const REACT_APP_MAX_COUNT =process.env.REACT_APP_MAX_COUNT;
+  console.log("process.env: ",process.env);
   return (
     <div className="App">
       <h1>App1 updated on 24jul2023, 16:13hrs</h1>
